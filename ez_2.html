@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EZ Soft Tech | Best Software Company in Bilaspur, Chhattisgarh</title>
+<meta name="description" content="Website development, mobile apps, billing software and digital marketing from Bilaspur, Chhattisgarh. Serving India, UK, UAE and USA.">
+<style>
+:root{color-scheme:dark;--bg:#030a1c;--bg2:#06122e;--ink:#eef3ff;--mute:#a9b6d3;--green:#2bff1a;--blue:#3b82f6;--line:rgba(80,140,255,.28);--card:rgba(14,36,92,.45);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:radial-gradient(1200px 600px at 80% 0,#0b2a7a55,transparent),var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+svg.logo{height:44px;width:auto;display:block}
+header{position:sticky;top:0;top:env(safe-area-inset-top,0px);z-index:1000;background:rgba(3,10,28,.75);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid rgba(80,140,255,.15);transition:background .25s ease,box-shadow .25s ease,border-color .25s ease}
+header.scrolled{background:rgba(3,10,28,.97);border-bottom:1px solid var(--line);box-shadow:0 12px 32px rgba(0,0,0,.7)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+nav{display:flex;gap:26px;font-size:14px}
+nav a{color:var(--mute);padding:6px 0;transition:color .2s}
+nav a:hover,nav a.on{color:var(--green)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:99px;font-weight:700;font-size:14px;border:1px solid var(--green);transition:.2s}
+.btn.solid{background:linear-gradient(90deg,#3dff1a,#9dff3a);color:#021207;box-shadow:0 0 28px #2bff1a55}
+.btn.ghost{color:var(--green);background:transparent}
+.btn:hover{transform:translateY(-2px)}
+@media(max-width:820px){
+.mob-toggle{display:inline-flex!important;align-items:center;justify-content:center}
+nav{display:none;position:absolute;top:68px;left:0;right:0;background:rgba(3,10,28,.98);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-bottom:1px solid var(--line);box-shadow:0 20px 40px rgba(0,0,0,.7);flex-direction:column;padding:18px 24px;gap:14px}
+nav.open{display:flex}
+nav a{padding:8px 0;border-bottom:1px solid rgba(80,140,255,.1)}
+}
+.hero{padding:64px 0 56px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.tag{display:inline-block;border:1px solid var(--green);color:var(--green);border-radius:99px;padding:4px 14px;font-size:12px;margin-bottom:18px}
+h1{font-size:clamp(34px,5.4vw,60px);line-height:1.08;margin:0 0 18px;letter-spacing:-.02em}
+h1 span{color:var(--green)}
+.hero p{max-width:480px;color:var(--mute);font-size:17px;margin:0 0 28px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.cube{position:relative;aspect-ratio:1;max-width:420px;margin:auto;width:100%;display:grid;place-items:center}
+.cube::before,.cube::after{content:"";position:absolute;inset:6%;border-radius:50%;border:3px solid transparent;border-top-color:var(--green);border-bottom-color:var(--blue);transform:rotate(-18deg) scaleY(.38);filter:drop-shadow(0 0 14px var(--green))}
+.cube::after{inset:-4%;transform:rotate(-18deg) scaleY(.3);opacity:.6}
+.cube .face{width:58%;aspect-ratio:1;border-radius:18px;background:linear-gradient(145deg,#12388f88,#06163c99);border:1px solid #7fb0ff88;box-shadow:0 0 60px #2a6bff88,inset 0 0 40px #5aa0ff33;display:grid;place-items:center;position:relative;z-index:1}
+.cube .face svg{width:62%}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}.cube{max-width:300px}}
+.sec{padding:56px 0}
+.head{text-align:center;margin-bottom:30px}
+.head small,.k{color:var(--green);font-size:13px;font-weight:600}
+h2{font-size:clamp(26px,3.6vw,38px);margin:6px 0 8px;letter-spacing:-.01em;line-height:1.15}
+.head p{color:var(--mute);margin:0}
+.logins{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.login{border:1px solid var(--line);background:linear-gradient(135deg,#0f2e7a99,#071a4599);border-radius:16px;padding:26px;display:flex;gap:18px;align-items:center;transition:.2s}
+.login:hover{border-color:var(--green);box-shadow:0 0 30px #2bff1a2a}
+.login .ic{font-size:32px;width:56px;height:56px;border-radius:14px;display:grid;place-items:center;background:#0d2a6e;color:var(--blue);font-weight:800;flex:none}
+.login:nth-child(2) .ic{color:var(--green)}
+.login h3{margin:0 0 2px;font-size:19px}.login p{margin:0;color:var(--mute);font-size:14px}
+@media(max-width:820px){.logins{grid-template-columns:1fr}}
+.svc{display:grid;grid-template-columns:.9fr 1.4fr;gap:40px;align-items:center}
+.svc p{color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.tile{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:18px 12px;text-align:center;font-size:13px;font-weight:600;min-height:92px;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center}
+.tile i{font-style:normal;font-size:24px;color:var(--green)}
+.tile:nth-child(3n+2) i{color:var(--blue)}
+@media(max-width:820px){.svc{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;position:relative}
+.steps::before{content:"";position:absolute;left:12%;right:12%;top:21px;height:2px;background:linear-gradient(90deg,var(--blue),var(--green));opacity:.7}
+.step{text-align:center;position:relative}
+.step b{width:44px;height:44px;border-radius:50%;background:#071a45;border:2px solid var(--blue);display:grid;place-items:center;margin:0 auto 12px;box-shadow:0 0 18px #3b82f6aa}
+.step span{color:var(--mute);font-size:14px}
+@media(max-width:640px){.steps{grid-template-columns:1fr 1fr;row-gap:28px}.steps::before{display:none}}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.why p{color:var(--mute)}
+.ticks{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.ticks li::before{content:"✓";display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--green);color:#021207;font-size:13px;font-weight:800;margin-right:12px}
+@media(max-width:820px){.why{grid-template-columns:1fr}}
+.trust{border:1px solid var(--line);border-radius:20px;padding:26px;background:var(--card);display:grid;grid-template-columns:1.1fr 2fr 1.3fr;gap:24px;align-items:center}
+.trust h3{margin:0 0 6px;font-size:21px}.trust p{margin:0 0 14px;color:var(--mute);font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center}
+.stats div{border:1px solid var(--line);border-radius:12px;padding:16px 6px}
+.stats b{display:block;font-size:26px}.stats span{font-size:12px;color:var(--mute)}
+.quote{border:1px solid var(--line);border-radius:14px;padding:18px;font-size:14px}
+.quote small{display:block;color:var(--mute);margin-top:8px}
+@media(max-width:900px){.trust{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+.band{background:linear-gradient(100deg,#0b2a7a,#06122e 60%,#0b3a2a);border-block:1px solid var(--line);padding:32px 0}
+.band .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.band h2{margin:0}.band p{margin:4px 0 0;color:var(--mute)}
+footer{padding:44px 0 24px;font-size:14px;color:var(--mute)}
+footer .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.4fr;gap:28px}
+footer h4{color:var(--ink);margin:0 0 12px;font-size:14px}
+footer a{display:block;margin-bottom:8px}footer a:hover{color:var(--green)}
+footer form{display:flex}
+footer input{flex:1;min-width:0;background:#06122e;border:1px solid var(--line);border-radius:8px 0 0 8px;color:var(--ink);padding:11px 12px}
+footer button{background:var(--green);border:0;border-radius:0 8px 8px 0;padding:0 16px;font-weight:800;cursor:pointer}
+.legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--line);margin-top:30px;padding-top:18px;font-size:13px}
+@media(max-width:820px){footer .cols{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:no-preference){.cube .face{animation:fl 6s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-10px)}}}
+#net{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+section,footer{position:relative;z-index:1}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(rgba(60,130,255,.07) 1px,transparent 1px) 0 0/48px 48px,linear-gradient(90deg,rgba(60,130,255,.07) 1px,transparent 1px) 0 0/48px 48px;mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 75%)}
+.btn.solid,.btn.ghost{position:relative;overflow:hidden}
+.btn.solid::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg)}
+.cube .face::after{content:"";position:absolute;left:6%;right:6%;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--green),transparent);box-shadow:0 0 14px var(--green);border-radius:2px}
+.cube{transform-style:preserve-3d;transition:transform .15s ease-out}
+.login,.tile,.trust,.stats div{position:relative;overflow:hidden}
+.login::before,.tile::before{content:"";position:absolute;inset:0;background:radial-gradient(220px circle at var(--mx,50%) var(--my,50%),rgba(43,255,26,.16),transparent 60%);opacity:0;transition:opacity .25s;pointer-events:none}
+.login:hover::before,.tile:hover::before{opacity:1}
+.tile{transition:transform .25s,border-color .25s,box-shadow .25s}
+.tile:hover{transform:translateY(-4px);border-color:var(--green);box-shadow:0 0 24px #2bff1a30}
+.glow{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0}
+@media(prefers-reduced-motion:no-preference){
+h1 span{background:linear-gradient(90deg,#2bff1a,#7dffb0,#3b82f6,#2bff1a);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:flow 6s linear infinite}
+@keyframes flow{to{background-position:300% 0}}
+.tag{animation:pulse 2.8s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 18px #2bff1a66}}
+.btn.solid::after{animation:shine 3.6s ease-in-out infinite}
+@keyframes shine{0%,55%{left:-60%}100%{left:130%}}
+.cube::before{animation:ringA 7s ease-in-out infinite alternate}
+.cube::after{animation:ringB 9s ease-in-out infinite alternate}
+@keyframes ringA{from{transform:rotate(-26deg) scaleY(.38)}to{transform:rotate(-6deg) scaleY(.3)}}
+@keyframes ringB{from{transform:rotate(-8deg) scaleY(.26)}to{transform:rotate(-30deg) scaleY(.34)}}
+.cube .face::after{animation:scan 3.4s linear infinite}
+@keyframes scan{from{top:0;opacity:0}15%{opacity:1}85%{opacity:1}to{top:100%;opacity:0}}
+.cube .face{box-shadow:0 0 60px #2a6bff88,inset 0 0 40px #5aa0ff33}
+.glow{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(60px,40px) scale(1.2)}}
+.steps::before{background-size:200% 100%;background:linear-gradient(90deg,var(--blue),var(--green),var(--blue));background-size:200% 100%;animation:flow2 3s linear infinite}
+@keyframes flow2{to{background-position:-200% 0}}
+.step b{animation:ping 2.6s ease-in-out infinite}
+.step:nth-child(2) b{animation-delay:.4s}.step:nth-child(3) b{animation-delay:.8s}.step:nth-child(4) b{animation-delay:1.2s}
+@keyframes ping{50%{box-shadow:0 0 28px #2bff1acc;border-color:var(--green)}}
+.login .ic{animation:bob 4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.tile i{animation:bob 3.4s ease-in-out infinite}
+.js-rv .rv{opacity:0;transform:translateY(26px) scale(.98);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.js-rv .rv.in{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><symbol id="ez" viewBox="-6 0 108 60"><path d="M0 0h8v60H0z M0 0h38v8H0z M0 52h40v8H0z M46 0h50v8H46z M44 52h52v8H44z M96 0v8L56 52h-12v-8L84 0z" fill="#fff"/><rect x="-6" y="24" width="40" height="9" fill="#2bff1a"/></symbol></svg>
+
+<canvas id="net" aria-hidden="true"></canvas>
+<header id="mainHdr"><div class="wrap">
+<a href="#" aria-label="EZ Soft Tech home"><svg class="logo" viewBox="-6 0 108 60"><use href="#ez"/></svg></a>
+<nav id="navMenu"><a class="on" href="#">Home</a><a href="#why">About Us</a><a href="#services">Services</a><a href="#process">Process</a><a href="#trust">Portfolio</a><a href="#portal">Support</a><a href="#contact">Contact</a></nav>
+<div style="display:flex;align-items:center;gap:12px">
+<a class="btn ghost" href="#contact">Get Started</a>
+<button class="mob-toggle" id="mobToggle" aria-label="Toggle menu" style="display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;cursor:pointer">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+</button>
+</div>
+</div></header>
+
+<section class="hero"><span class="glow" style="width:380px;height:380px;background:#2bff1a33;left:-80px;top:40px"></span><span class="glow" style="width:460px;height:460px;background:#2a6bff44;right:-100px;top:-40px"></span><div class="wrap">
+<div>
+<span class="tag">Innovate • Build • Grow</span>
+<h1>Smarter Strategy.<br><span>Engineered</span> with AI.</h1>
+<p>EZ Soft Tech is a software company in Bilaspur, Chhattisgarh. We build websites, mobile apps, billing software and digital marketing for businesses in India, the UK, UAE and USA.</p>
+<div class="cta"><a class="btn solid" href="#services">Explore Our Services</a><a class="btn ghost" href="#contact">Call +91 89623 70822</a></div>
+</div>
+<div class="cube"><div class="face"><svg viewBox="-6 0 108 60"><use href="#ez"/></svg></div></div>
+</div></section>
+
+<section class="sec" id="portal"><div class="wrap">
+<div class="head"><small>Access Your Portal</small><h2>Choose Your Login Panel</h2><p>Get started with the right access for your needs</p></div>
+<div class="logins">
+<a class="login" href="#"><span class="ic">◎</span><div><h3>Client Login</h3><p>Access your projects, updates and support.</p></div></a>
+<a class="login" href="#"><span class="ic">&lt;/&gt;</span><div><h3>Developer Login</h3><p>Build, deploy and manage your solutions.</p></div></a>
+<a class="login" href="#"><span class="ic">☎</span><div><h3>Support Login</h3><p>Get help and track your requests.</p></div></a>
+</div></div></section>
+
+<section class="sec" id="services"><div class="wrap svc">
+<div><span class="k">Our Services</span><h2>Software &amp; Marketing Solutions for Your Business</h2><p>From custom websites to GST-compliant billing software, we deliver scalable and reliable solutions for businesses in Chhattisgarh and beyond.</p><a class="btn solid" href="#contact">View All Services</a></div>
+<div class="grid">
+<div class="tile"><i>&lt;/&gt;</i>Website Development</div>
+<div class="tile"><i>▯</i>Mobile App Development</div>
+<div class="tile"><i>₹</i>Billing Software</div>
+<div class="tile"><i>◔</i>Digital Marketing</div>
+<div class="tile"><i>⌕</i>SEO Optimization</div>
+<div class="tile"><i>◉</i>Social Media</div>
+<div class="tile"><i>▲</i>PPC Advertising</div>
+<div class="tile"><i>⚙</i>Custom Software</div>
+<div class="tile"><i>☁</i>Ongoing Support</div>
+</div></div></section>
+
+<section class="sec" id="process"><div class="wrap">
+<div class="head"><small>Our Process</small><h2>A Simple Process for Big Results</h2></div>
+<div class="steps">
+<div class="step"><b>1</b>Discuss<br><span>Your needs</span></div>
+<div class="step"><b>2</b>Plan<br><span>The strategy</span></div>
+<div class="step"><b>3</b>Develop<br><span>The solution</span></div>
+<div class="step"><b>4</b>Launch<br><span>&amp; support</span></div>
+</div></div></section>
+
+<section class="sec" id="why"><div class="wrap why">
+<div><span class="k">Why Choose EZ Soft Tech</span><h2>Your Growth. Our Technology.</h2><p>We focus on innovation, quality and long-term partnership to help you stay ahead in the digital world.</p><a class="btn solid" href="#contact">Learn More</a></div>
+<ul class="ticks"><li>Innovative Solutions</li><li>Reliable Support</li><li>Experienced Team</li><li>Long-Term Partnership</li></ul>
+</div></section>
+
+<section class="sec" id="trust"><div class="wrap"><div class="trust">
+<div><h3>Trusted by Businesses Worldwide</h3><p>Our clients trust us to deliver impactful solutions.</p><a class="btn ghost" href="#contact">Read Testimonials</a></div>
+<div class="stats"><div><b>4.9</b><span>Average rating</span></div><div><b>127</b><span>Client reviews</span></div><div><b>4</b><span>Countries served</span></div><div><b>6</b><span>Days a week</span></div></div>
+<div class="quote">Serving India, United Kingdom, UAE and United States.<small>Mon–Sat, 10:00 AM – 7:00 PM</small></div>
+</div></div></section>
+
+<section class="band" id="contact"><div class="wrap">
+<div><h2>Ready to Transform Your Business?</h2><p>Let’s turn your ideas into powerful digital solutions.</p></div>
+<a class="btn solid" href="mailto:info@ezsofttech.in">Get in Touch</a>
+</div></section>
+
+<footer><div class="wrap">
+<div class="cols">
+<div><svg class="logo" viewBox="-6 0 108 60"><use href="#ez"/></svg><p>Innovate. Build. Grow.</p><p>3rd Floor, Infinity Business Park, Vyapar Vihar, Bilaspur, Chhattisgarh 495001</p></div>
+<div><h4>Quick Links</h4><a href="#">Home</a><a href="#why">About Us</a><a href="#services">Services</a><a href="#trust">Portfolio</a></div>
+<div><h4>Contact</h4><a href="tel:+918962370822">+91 89623 70822</a><a href="mailto:info@ezsofttech.in">info@ezsofttech.in</a><a href="#portal">Support Login</a></div>
+<div><h4>Subscribe to Our Newsletter</h4><form onsubmit="return false"><input type="email" placeholder="Your email address" aria-label="Email address"><button aria-label="Subscribe">→</button></form></div>
+</div>
+<div class="legal"><span>© 2026 EZ Soft Tech. All rights reserved.</span><span>Privacy Policy &nbsp;|&nbsp; Terms of Service</span></div>
+</div></footer>
+<script>
+(function(){
+var calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var $=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+/* spotlight on cards */
+$('.login,.tile').forEach(function(el){el.addEventListener('pointermove',function(e){var r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px')})});
+/* header scroll elevation & contrast */
+var hdr=document.getElementById('mainHdr');
+function onHdrScroll(){if(window.scrollY>15){hdr.classList.add('scrolled')}else{hdr.classList.remove('scrolled')}}
+window.addEventListener('scroll',onHdrScroll,{passive:true});
+onHdrScroll();
+/* mobile menu toggle */
+var mobBtn=document.getElementById('mobToggle');
+var navMenu=document.getElementById('navMenu');
+if(mobBtn&&navMenu){
+mobBtn.addEventListener('click',function(){navMenu.classList.toggle('open')});
+navMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){navMenu.classList.remove('open')})});
+}
+if(calm)return;
+/* scroll reveal */
+document.documentElement.classList.add('js-rv');
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+$('.head,.login,.tile,.step,.ticks li,.why>div,.svc>div:first-child,.trust,.band .wrap').forEach(function(el,i){el.classList.add('rv');el.style.transitionDelay=((i%6)*70)+'ms';io.observe(el)});
+/* count-up */
+var co=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;co.unobserve(e.target);var t=e.target.textContent,n=parseFloat(t),d=(t.split('.')[1]||'').length,s=performance.now();(function f(now){var p=Math.min((now-s)/1400,1),v=n*(1-Math.pow(1-p,3));e.target.textContent=v.toFixed(d);if(p<1)requestAnimationFrame(f)})(s)})},{threshold:.6});
+$('.stats b').forEach(function(b){co.observe(b)});
+/* 3D tilt on hero cube */
+var cube=document.querySelector('.cube');
+document.addEventListener('pointermove',function(e){var x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;cube.style.transform='perspective(900px) rotateY('+(x*22)+'deg) rotateX('+(-y*18)+'deg)'});
+/* particle network */
+var c=document.getElementById('net'),g=c.getContext('2d'),W,H,P=[],m={x:-999,y:-999},dpr=Math.min(devicePixelRatio||1,2);
+function size(){W=innerWidth;H=innerHeight;c.width=W*dpr;c.height=H*dpr;g.setTransform(dpr,0,0,dpr,0,0);var n=Math.round(Math.min(90,W*H/16000));P=[];for(var i=0;i<n;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,g:Math.random()<.3})}
+size();addEventListener('resize',size);
+addEventListener('pointermove',function(e){m.x=e.clientX;m.y=e.clientY});
+function draw(){g.clearRect(0,0,W,H);
+for(var i=0;i<P.length;i++){var a=P[i];a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>W)a.vx*=-1;if(a.y<0||a.y>H)a.vy*=-1;
+var dx=a.x-m.x,dy=a.y-m.y,dm=dx*dx+dy*dy;if(dm<14000){a.x+=dx*.004;a.y+=dy*.004}
+g.fillStyle=a.g?'rgba(43,255,26,.8)':'rgba(90,150,255,.8)';g.beginPath();g.arc(a.x,a.y,1.6,0,6.283);g.fill();
+for(var j=i+1;j<P.length;j++){var b=P[j],x=a.x-b.x,y=a.y-b.y,d=x*x+y*y;if(d<16000){g.strokeStyle='rgba(70,140,255,'+(.22*(1-d/16000))+')';g.lineWidth=1;g.beginPath();g.moveTo(a.x,a.y);g.lineTo(b.x,b.y);g.stroke()}}}
+requestAnimationFrame(draw)}
+draw();
+})();
+</script>
+</body>
+</html>
